@@ -11,7 +11,7 @@ You can use Tinify in two ways:
 %tinify_<text>% (or %tinify_{placeholder}%)
 ```
 
-This format gives output like this:
+This format gives output like this: \
 ![thin letter example](assets/letters.png)
 
 or
@@ -20,7 +20,7 @@ or
 %tinify_bold_<text>% (or %tinify_bold_{placeholder}%)
 ```
 
-This format gives output like this:
+This format gives output like this: \
 ![bold letter example](assets/letters-bold.png)
 
 ## Installation
