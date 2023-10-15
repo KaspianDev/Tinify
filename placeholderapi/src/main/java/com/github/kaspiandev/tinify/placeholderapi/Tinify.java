@@ -1,5 +1,6 @@
-package com.github.kaspiandev.tinify;
+package com.github.kaspiandev.tinify.placeholderapi;
 
+import com.github.kaspiandev.tinify.api.TinyReplacer;
 import me.clip.placeholderapi.PlaceholderAPI;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.ChatColor;

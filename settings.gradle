@@ -1,1 +1,3 @@
-rootProject.name = 'Tinify'
+rootProject.name = "Tinify"
+
+include "api", "placeholderapi"

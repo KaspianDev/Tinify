@@ -1,4 +1,4 @@
-package com.github.kaspiandev.tinify;
+package com.github.kaspiandev.tinify.api;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,0 +1,22 @@
+plugins {
+    id "java"
+    id "maven-publish"
+}
+
+def artifactName = "Tinify-api"
+group = "com.github.kaspiandev.tinify"
+version = project.property("version")
+
+jar {
+    archiveBaseName = artifactName
+}
+
+publishing {
+    publications {
+        api(MavenPublication) { publication ->
+            artifactId = artifactName
+
+            from components.java
+        }
+    }
+}
