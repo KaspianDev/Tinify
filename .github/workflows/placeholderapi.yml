@@ -1,4 +1,4 @@
-name: Java CI with Gradle
+name: PlaceholderAPI Build
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
       with:
-        path: build/libs/Tinify-*.jar
+        path: placeholderapi/build/libs/*.jar
