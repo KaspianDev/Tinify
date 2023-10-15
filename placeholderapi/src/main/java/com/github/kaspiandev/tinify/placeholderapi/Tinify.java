@@ -23,7 +23,7 @@ public final class Tinify extends PlaceholderExpansion {
 
     @Override
     public @NotNull String getVersion() {
-        return "1";
+        return "2";
     }
 
     @Override
