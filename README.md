@@ -27,6 +27,26 @@ This format gives output like this:
 
 Just put the jar in `plugins/PlaceholderAPI/extensions` folder.
 
+## Using the API
+
+First off all add jitpack repo to your build script:
+
+```gradle
+repositories {
+    maven {
+        url = "https://jitpack.io"
+    }
+}
+```
+
+Then you can add the package as dependency (you should shade it):
+
+```gradle
+dependencies {
+    implementation "com.github.KaspianDev.Tinify:Tinify-api:master-SNAPSHOT"
+}
+```
+
 ## Compiling
 
 Extension can be build using:
